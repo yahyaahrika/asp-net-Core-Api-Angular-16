@@ -13,6 +13,8 @@ Connection  database
 
 ## BankEnd Asp.Net Core
 
+>file : appsettings.json
+
 ```javascript
 `  "ConnectionStrings": {
     "App_AnimeContext": "Server=YourServer;Database=DataBaseName;Trusted_Connection=True;MultipleActiveResultSets=true"
