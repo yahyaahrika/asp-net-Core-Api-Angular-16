@@ -1,0 +1,8 @@
+<div class="form-group row" >
+  
+    <input type="text" [(ngModel)]="anime.name" class="form-control col-md-2 " placeholder="Name Anime">
+    <input type="text" [(ngModel)]="anime.scope" class="form-control col-md-2" placeholder="Score 0 to 100">
+    <input type="text" [(ngModel)]="anime.img" class="form-control col-md-2" placeholder="Image">
+    <input type="button" (click)="update(anime.id, anime)" class=" col-md-2" value="Update">
+ <div class="col-md-4"></div>
+</div>
