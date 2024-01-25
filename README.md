@@ -24,15 +24,19 @@ In Visual Studio, open NuGet Package Manager Console from Tools -> NuGet Package
 
 Url server AspNetCore
 
-Angular Files -> environment.development.ts
+Angular Files 
+>src > environment > environment.development.ts
 
-## export const environment = {
-
+```javascript
+ export const environment = {
     production: true,
     ApiUrl : '//localhost:5113/api/Animes'
 };
 
+```
 
-Angular run 
+ ####Run  Angular
 
-## ng s or ng serve
+```
+ng serve
+```
