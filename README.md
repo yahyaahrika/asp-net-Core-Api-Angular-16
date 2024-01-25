@@ -13,16 +13,18 @@ Connection  database
 
 ## BankEnd Asp.Net Core
 
+```javascript
 `  "ConnectionStrings": {
     "App_AnimeContext": "Server=YourServer;Database=DataBaseName;Trusted_Connection=True;MultipleActiveResultSets=true"
   }`
+```
 
 In Visual Studio, open NuGet Package Manager Console from Tools -> NuGet Package Manager -> Package Manager Console and enter the following command:
 ##### Package Manager Console/PowerShell
 
 > update-database
 
-Url server AspNetCore
+##### Chanhe Url server AspNetCore
 
 Angular Files 
 >src > environment > environment.development.ts
