@@ -24,7 +24,7 @@ In Visual Studio, open NuGet Package Manager Console from Tools -> NuGet Package
 
 > update-database
 
-##### Chanhe Url server AspNetCore
+##### Change url server AspNetCore
 
 Angular Files 
 >src > environment > environment.development.ts
