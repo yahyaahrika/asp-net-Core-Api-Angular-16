@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { environment } from './../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -8,7 +9,7 @@ export class SharedService {
  
 
   constructor(private http:HttpClient) {   }
-  private url = "//localhost:5113/api/Animes"
+  private url = environment.ApiUrl;
 
   animes:any[]= [];
 
