@@ -25,7 +25,7 @@ Connection  database
   },
   "AllowedHosts": "*",
   "ConnectionStrings": {
-    "App_AnimeContext": "Server=DESKTOP-3922AC9;Database=DbAnime;Trusted_Connection=True;MultipleActiveResultSets=true"
+    "App_AnimeContext": "Server=YourServer;Database=DatabaseName;Trusted_Connection=True;MultipleActiveResultSets=true"
   }
 }`
 ```
