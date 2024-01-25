@@ -53,3 +53,6 @@ Angular Files
 ```
 ng serve
 ```
+
+## API
+![Screenshot 2024-01-25 at 23-22-49 Swagger UI](https://github.com/yahyaahrika/asp-net-Core-Api-Angular-16/assets/16888628/09fe8fd3-3e1e-4d9e-98bb-3efc113d532a)
