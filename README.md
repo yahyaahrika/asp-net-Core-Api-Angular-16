@@ -16,9 +16,18 @@ Connection  database
 >file : appsettings.json
 
 ```javascript
-`  "ConnectionStrings": {
-    "App_AnimeContext": "Server=YourServer;Database=DataBaseName;Trusted_Connection=True;MultipleActiveResultSets=true"
-  }`
+` {
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "App_AnimeContext": "Server=DESKTOP-3922AC9;Database=DbAnime;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}`
 ```
 
 In Visual Studio, open NuGet Package Manager Console from Tools -> NuGet Package Manager -> Package Manager Console and enter the following command:
