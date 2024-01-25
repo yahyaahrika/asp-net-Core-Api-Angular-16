@@ -1,7 +1,7 @@
 # asp-net-Core-Api-Angular-16
 Asp.Net Core Web API and Angular 16 CRUD Anime
 
-###Screenshot
+### Screenshot
 
 ![Screenshot 2024-01-25 at 21-06-32 Project1](https://github.com/yahyaahrika/asp-net-Core-Api-Angular-16/assets/16888628/09819112-2c1d-4af9-ab37-3b842aa40c5e)
 
@@ -11,7 +11,7 @@ Asp.Net Core Web API and Angular 16 CRUD Anime
 Asp Net Core 
 Connection  database
 
-##BankEnd Asp.Net Core
+## BankEnd Asp.Net Core
 
 `  "ConnectionStrings": {
     "App_AnimeContext": "Server=YourServer;Database=DataBaseName;Trusted_Connection=True;MultipleActiveResultSets=true"
@@ -35,7 +35,7 @@ Angular Files
 
 ```
 
- ####Run  Angular
+#### Run  Angular
 
 ```
 ng serve
